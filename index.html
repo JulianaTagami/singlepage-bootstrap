@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/bootstrap/bootstrap.min.css">
     <title>Single Page - Bootstrap</title>
 </head>
@@ -12,16 +13,40 @@
         <h2>Sobre Nós</h2>
         <img src="/assets/img/empresa.jpg" class="img-responsive" alt="Responsive image">
 
-        <h2 data-toggle="collapse" data-target="#one-p">Desde 1935</h2>
-        <p id="one-p" class="collapse.in">A TopCasaFina Arquitetura projetando a casa dos sonhos desde 2000.</p>
+        <div class="panel-group" id="panel-about">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3  class="panel-title" data-toggle="collapse" data-target="#one-p" data-parent="#panel-about">Desde 1935</h3>
+                </div>
+                <div  id="one-p" class="collapse">
+                    <div class="panel-body">
+                        <p>Trazendo casas, mansões e prédios lindos para o mundo.</p>
+                    </div>
+                </div>
+            </div>
 
-        <h2 data-toggle="collapse" data-target="#two-p">Desde 1935</h2>
-        <p id="two-p" class="collapse.in">A TopCasaFina Arquitetura projetando a casa dos sonhos desde 2000.</p>
-
-        <h2 data-toggle="collapse" data-target="#three-p">Desde 1935</h2>
-        <p id="three-p" class="collapse.in">A TopCasaFina Arquitetura projetando a casa dos sonhos desde 2000.</p>
-
-
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3  class="panel-title" data-toggle="collapse" data-target="#two-p" data-parent="#panel-about">Preços acessíveis</h3>
+                </div>
+                <div p id="two-p" class="collapse">
+                    <div class="panel-body">
+                        <p>Preços a partir de R$ 10000,00.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3  class="panel-title" data-toggle="collapse" data-target="#three-p" data-parent="#panel-about">Alegria em colaborar para um mundo mais bonito</h3>
+                </div>
+                <div id="three-p" class="collapse">
+                    <div class="panel-body">
+                        <p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     
     <script src="/jquery-3.6.0.min.js"></script>
