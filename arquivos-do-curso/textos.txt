@@ -68,3 +68,14 @@ Tel: (11) 5571-2751 ou 5083-3884<br>
 E-mail: contato.topcasafina@alura.com.br
 
 --footer fim--
+
+
+
+
+
+
+BigInt.
+
+Symbol.
+
+String.Number.Boolean.Undefined.Null.
