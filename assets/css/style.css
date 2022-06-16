@@ -20,3 +20,14 @@
     width: 50%;
     vertical-align: middle;
 }
+
+.footer-page {
+    color: #fff;
+    background-color: gray;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 24px;
+    padding-left: 15px;
+}
