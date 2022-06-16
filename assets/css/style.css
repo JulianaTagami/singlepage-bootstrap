@@ -1,11 +1,12 @@
 
+   
 
 #panel-about {
     margin-top: 20px;
 }
 
 .title-dep {
-    background-color: #0275D8;
+    background-color: #041d34;
     padding-top: 25px;
     padding-bottom: 25px;
     color: #fff;
@@ -23,11 +24,9 @@
 
 .footer-page {
     color: #fff;
-    background-color: gray;
+    background-color: #333;
     padding-top: 10px;
     padding-bottom: 25px;
     margin-top: 10px;
     margin-bottom: 0;
-    font-size: 24px;
-    padding-left: 15px;
 }

@@ -1,25 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <title>Single Page - Bootstrap</title>
 </head>
+
 <body>
-    <section class="container">
+
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#colapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="colapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+                        <li><a href="#depoimentos">Depoimentos</a></li>
+                        <li><a href="#videos">Vídeo</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container" id="sobre-nos">
         <h2>Sobre Nós</h2>
         <img src="/assets/img/empresa.jpg" class="img-responsive" alt="Responsive image">
 
         <div class="panel-group" id="panel-about">
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3  class="panel-title" data-toggle="collapse" data-target="#one-p" data-parent="#panel-about">Desde 1935</h3>
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#one-p" data-parent="#panel-about">Desde
+                        1935</h3>
                 </div>
-                <div  id="one-p" class="collapse">
+                <div id="one-p" class="collapse">
                     <div class="panel-body">
                         <p>Trazendo casas, mansões e prédios lindos para o mundo.</p>
                     </div>
@@ -28,7 +62,8 @@
 
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3  class="panel-title" data-toggle="collapse" data-target="#two-p" data-parent="#panel-about">Preços acessíveis</h3>
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#two-p" data-parent="#panel-about">
+                        Preços acessíveis</h3>
                 </div>
                 <div p id="two-p" class="collapse">
                     <div class="panel-body">
@@ -36,10 +71,11 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    <h3  class="panel-title" data-toggle="collapse" data-target="#three-p" data-parent="#panel-about">Alegria em colaborar para um mundo mais bonito</h3>
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#three-p" data-parent="#panel-about">
+                        Alegria em colaborar para um mundo mais bonito</h3>
                 </div>
                 <div id="three-p" class="collapse">
                     <div class="panel-body">
@@ -57,7 +93,7 @@
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="nossos-projetos">
         <h2>Nossos Projetos</h2>
 
         <figure class="thumbnail">
@@ -80,7 +116,8 @@
             <img src="/assets/img/projetos/mercado-marapira.png" alt="Image Mercado">
             <figcaption class="caption">
                 <h3>Mercado Marapira</h3>
-                <p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.<p>
+                <p>O mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.
+                <p>
             </figcaption>
         </figure>
 
@@ -88,7 +125,7 @@
             <img src="/assets/img/projetos/palacio-dionisio.png" alt="Image Palacio">
             <figcaption class="caption">
                 <h3>Palácio Dionísio</h3>
-                <p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>                
+                <p>O palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo do mundo.</p>
             </figcaption>
         </figure>
 
@@ -101,59 +138,60 @@
         </figure>
     </section>
 
-    <section>
+    <section id="depoimentos">
         <h2 class="title-dep">Depoimento dos clientes</h2>
         <figcaption id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 
             <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             </ol>
 
-            <figure class="carousel-inner"  role="listbox">
-              <div class="item active">
-                <img src="/assets/img/depoimentos/depoimento1.png" alt="..." >
-                <div class="carousel-caption">
-                    <h3>Yuri Padilha</h3>
-                    <p>Gostei muito e rápido o serviço.</p>
+            <figure class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="/assets/img/depoimentos/depoimento1.png" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Yuri Padilha</h3>
+                        <p>Gostei muito e rápido o serviço.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="item"   id="img-carrousel">
-                <img src="/assets/img/depoimentos/depoimento2.png" alt="...">
-                <div class="carousel-caption">
-                    <h3>Fernando Stafaneni</h3>
-                    <p>Excelente trabalho.</p>
+                <div class="item" id="img-carrousel">
+                    <img src="/assets/img/depoimentos/depoimento2.png" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Fernando Stafaneni</h3>
+                        <p>Excelente trabalho.</p>
+                    </div>
                 </div>
-              </div>
-              <div class="item"   id="img-carrousel">
-                <img src="/assets/img/depoimentos/depoimento3.png" style="width:100%; height:50%;" alt="...">
-                <div class="carousel-caption">
-                    <h3>Caio Sauzas</h3>
-                    <p>Gostei, competência em primeiro lugar.</p>
+                <div class="item" id="img-carrousel">
+                    <img src="/assets/img/depoimentos/depoimento3.png" style="width:100%; height:50%;" alt="...">
+                    <div class="carousel-caption">
+                        <h3>Caio Sauzas</h3>
+                        <p>Gostei, competência em primeiro lugar.</p>
+                    </div>
                 </div>
-              </div>
             </figure>
-            
+
             <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
             </a>
             <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
             </a>
-          </figcaption>
+        </figcaption>
     </section>
 
-    <section class="container">
+    <section class="container" id="videos">
         <h2>Vídeo Institucional</h2>
         <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/V0vxjhBhAWg" title="YouTube video player"></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/V0vxjhBhAWg"
+                title="YouTube video player"></iframe>
         </div>
     </section>
 
-    <section class="container">
+    <section class="container" id="contato">
         <h3>Contato</h3>
         <p>Entre contato conosco</p>
 
@@ -174,15 +212,18 @@
             <div class="group-radio">
                 <div class="radio">
                     <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Pessoa Física
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Pessoa
+                        Física
                     </label>
                 </div>
                 <div class="radio ">
                     <label>
-                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Pessoa Jurídica
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked> Pessoa
+                        Jurídica
                     </label>
                 </div>
-            </div><!--
+            </div>
+            <!--
 
             --><select id="menu-select" class="form-control">
                 <option disabled selected>Tipo de Solicitação</option>
@@ -198,23 +239,18 @@
 
     </section>
 
-    <footer>
-        <section class="footer-page">
-            <h5>TopCasaFina Arquitetura<br>
-                Rua Vergueiro, 3185, Vila Mariana<br>
-                São Paulo, SP<br>
-                Tel: (11) 5571-2751 ou 5083-3884<br>
-                E-mail: contato.topcasafina@alura.com.br
-            </h5>
-        </section>
+    <footer class="footer-page">
+        <address class="container">
+            <strong>TopCasaFina Arquitetura</strong><br>
+            Rua Vergueiro, 3185, Vila Mariana<br>
+            São Paulo, SP<br>
+            Tel: (11) 5571-2751 ou 5083-3884<br>
+            E-mail: contato.topcasafina@alura.com.br
+        </address>
     </footer>
-
-
-
-
 
     <script src="/jquery-3.6.0.min.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
-    
+
 
 </body>
